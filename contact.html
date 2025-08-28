@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Dark</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Color -->
+    <style>
+        body {
+            background-color: #2c2c2c;
+            color: #b68282;
+        }
+
+        .card {
+            background-color: #201f1f;
+            color: #b68282;
+            border: 1px solid #333;
+        }
+
+        .card .btn {
+            background-color: #8b3737;
+            border: none;
+        }
+
+        .card .btn:hover {
+            background-color: #3f2121;
+        }
+
+        footer {
+            background-color: #000;
+            color: #b68282;
+        }
+
+        .form-control,
+        .form-control:focus {
+            background-color: #2b2b2b;
+            color: #b68282;
+            border: 1px solid #444;
+        }
+
+        .form-label {
+            color: #b68282;
+        }
+
+        .btn-send {
+            background-color: #8b3737;
+            color: white;
+            border: none;
+        }
+
+        .btn-send:hover {
+            background-color: #3f2121;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black sticky-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">contact us</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="contact" class="py-5">
+            <div class="container">
+                <h2 class="text-center mb-4"> Contact Me </h2>
+                <form>
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label"> First Name </label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label"> Last Name </label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label"> Email Address </label>
+                        <input type="email" class="form-control" id="email" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="message" class="form-label"> Message </label>
+                        <textarea class="form-control" id="message" rows="8" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-send"> Send </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-black text-light text-center py-3">
+        <p class="mb-0">&copy; made by อนุตตรีย์ บัวเขียว 21/8/2025</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

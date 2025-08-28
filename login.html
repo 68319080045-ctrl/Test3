@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="shortcut icon" href="logo.gif" type="image/x-icon">
+</head>
+
+<body style="background-color: antiquewhite;">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: rgb(146, 169, 245);">
+    <div class="container">
+      <a class="navbar-brand" href="http://www.tatc.ac.th" target="_blank">
+        <img src="LOGO.gif" style="width: 30px;">
+        <span class="fw-bold">Thai-Austrian</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">all page</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="regraistration.html">Regraistration</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="studen.html">ข้อมูลนักศึกษา</a></li>
+              <li><a class="dropdown-item" href="studen.html">ข้อมูลนักศึกษา</a></li>
+              <li><a class="dropdown-item" href="studen.html">ข้อมูลนักศึกษา</a></li>
+              <li><a class="dropdown-item" href="studen.html">ข้อมูลนักศึกษา</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navar- nav">
+          <li class="nav-item"><a class="nav-link" href=""><i class="bi bi-house-door-fill"></i></a></li>
+          <li class="nav-item"><a class="nav-link" href=""></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <div class="container">
+        <div class="row justify-content-center align-items-center vh-100">
+            <div class="col-md-6">
+                <div class="text-center">
+                    <img src="logo.gif" class="img-fluid mb-4" alt="logo" style="width: 100px;">
+                </div>
+                <div class="bg-white p-5 shadow-lg rounded">
+                    <form action="login.php" method="post">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" name="email" placeholder="name@example.com" required>
+                            <label for="floatingInput">Email address</label>
+                        </div>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control" id="floatingPassword" name="password" placeholder="Password" required>
+                            <label for="floatingPassword">Password</label>
+                        </div>
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class=" text-light text-center py-3" style="background-color: rgb(146, 169, 245);">
+        <p class="mb-0">&copy; made by อนุตตรีย์ บัวเขียว 21/8/2025</p>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
